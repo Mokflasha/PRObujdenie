@@ -68,6 +68,9 @@ body{
 .constantine{
 	font-family: 'Constantine';
 }
+.montserrat-sb{
+	font-family: 'Montserrat sb';
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -158,6 +161,10 @@ body{
 .body--opened-menu .burger-icon span::after {
 	bottom: 0px;
 	transform: rotate(-45deg);
+}
+
+.learning-header{
+	margin: 0 auto;
 }
 
 
