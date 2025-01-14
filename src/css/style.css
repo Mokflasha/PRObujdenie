@@ -71,6 +71,9 @@ body{
 .montserrat-sb{
 	font-family: 'Montserrat sb';
 }
+.montserrat{
+	font-family: 'Montserrat';
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -167,7 +170,27 @@ body{
 .learning-header{
 	margin: 0 auto;
 }
+.learning{
+	margin-bottom: 70px;
+}
 
+.train-list{
+	list-style-type: disc;
+}
+.train-item{
+	margin-left: 40px;
+}
+.train-img{
+	position: relative;
+}
+.training-list{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.training-going-min{
+	display: none;
+}
 
 @media(max-width:720px){
 	.nav{
@@ -201,5 +224,13 @@ body{
 		width: 200px;
 		opacity: 1;
 		visibility: visible;
+	}
+}
+@media(max-width:850px){
+	.training-going-max{
+		display: none;
+	}
+	.training-going-min{
+		display: flex;
 	}
 }
