@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Constantine";
+  src: local("Constantine"), local("Constantine"),
+    url("../fonts/Constantine.woff2") format("woff2"),
+    url("../fonts/Constantine.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat sb";
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
+    url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat it";
+  src: local("Montserrat italic"), local("Montserrat-LightItalic"),
+    url("../fonts/Montserrat-LightItalic.woff2") format("woff2"),
+    url("../fonts/Montserrat-LightItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat b";
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+	width: 100%;
+}
+
+body{
+	background: rgba(3, 6, 12, 0.9)
+}
+.body--opened-menu {
+	overflow: hidden;
+}
+.constantine{
+	font-family: 'Constantine';
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+	, url("/ccc.jpg") 50% 12% / cover no-repeat;
+
+}
+
+.button{
+	position: relative;
+	z-index: 1;
+	background: linear-gradient(90.00deg, rgba(0, 0, 0, 0.8),#868f74 100%);
+}
+.button::after{
+	z-index: 1;
+}
+.button::before {
+  content:'';
+	z-index: -1;
+  position: absolute;
+  left: 0;
+  width: 0%;
+  height: 100%;	
+	background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  transition: all 1s ease;
+}
+.button:hover::before {
+  width: 100%;
+}
+
+.burger-icon {
+	position: relative;
+	display: none;
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	z-index: 11;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+
+.burger-icon span,
+.burger-icon span::before,
+.burger-icon span::after {
+	display: block;
+	width: 30px;
+	height: 2px;
+	border-radius: 100px;
+	background-color: #fff;
+}
+
+.burger-icon span {
+	position: relative;
+}
+
+.burger-icon span::before,
+.burger-icon span::after {
+	content: '';
+	position: absolute;
+}
+
+.burger-icon span::before {
+	top: -8px;
+}
+
+.burger-icon span::after {
+	bottom: -8px;
+}
+
+.body--opened-menu .burger-icon span {
+	background: transparent;
+}
+
+.body--opened-menu .burger-icon span::before {
+	top: 0px;
+	transform: rotate(45deg);
+}
+
+.body--opened-menu .burger-icon span::after {
+	bottom: 0px;
+	transform: rotate(-45deg);
+}
+
+
+@media(max-width:720px){
+	.nav{
+		position: fixed;
+		inset: 0;
+		z-index: 10;
+		background: rgb(8, 10, 8);
+		font-size: 24px;
+
+		transform: translateY(-50%);
+		opacity: 0;
+		visibility: hidden;
+		transition: all .4s;
+		display: flex;
+		margin: 0px;
+		/* flex-direction: row; */
+		align-items: start;
+		padding-top: 70px;
+		padding-left: 50px;
+		height: 100%;
+	}
+	.nav-list{
+		flex-direction: column;
+		gap: 25px;
+	}
+	.burger-icon {
+		display: flex;
+	}	
+	.body--opened-menu .nav {
+		transform: translateY(0%);
+		width: 200px;
+		opacity: 1;
+		visibility: visible;
+	}
+}
