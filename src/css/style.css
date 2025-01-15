@@ -210,6 +210,10 @@ body{
 	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
 	background: linear-gradient(90.00deg, rgb(114, 128, 121) 22.936%,rgb(104, 122, 134) 71.436%); */
 }
+.start-learn{
+	margin-bottom: 100px;
+}
+
 .start-button{
 	position: absolute;
 	right: 18px;
@@ -315,5 +319,6 @@ body{
 	}
 	.start-learn-min{
 		display: flex;
+		margin-bottom: 100px;
 	}
 }
