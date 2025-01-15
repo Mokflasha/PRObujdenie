@@ -71,6 +71,9 @@ body{
 .montserrat-sb{
 	font-family: 'Montserrat sb';
 }
+.montserrat-it{
+	font-family: 'Montserrat it';
+}
 .montserrat{
 	font-family: 'Montserrat';
 }
@@ -92,9 +95,7 @@ body{
 	z-index: 1;
 	background: linear-gradient(90.00deg, rgba(0, 0, 0, 0.8),#868f74 100%);
 }
-.button::after{
-	z-index: 1;
-}
+
 .button::before {
   content:'';
 	z-index: -1;
@@ -171,7 +172,11 @@ body{
 	margin: 0 auto;
 }
 .learning{
-	margin-bottom: 70px;
+	margin-bottom: 100px;
+}
+
+.training-going{
+	margin-bottom: 100px;
 }
 
 .train-list{
@@ -191,6 +196,75 @@ body{
 .training-going-min{
 	display: none;
 }
+.start__header{
+	border-radius: 20px 20px 20px 0;
+	background: linear-gradient(90.00deg, rgb(114, 128, 121) 22.936%,rgb(104, 122, 134) 71.436%);
+}
+.start__par{
+	border-radius: 0 0 20px 20px ;
+	background: linear-gradient(90.00deg, rgb(114, 128, 121) 40.936%,rgb(104, 122, 134) 95.436%);
+}
+.start-learn__div{
+	position: relative;
+	/* border-radius: 20px;
+	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
+	background: linear-gradient(90.00deg, rgb(114, 128, 121) 22.936%,rgb(104, 122, 134) 71.436%); */
+}
+.start-button{
+	position: absolute;
+	right: 18px;
+	bottom: 25px;
+	z-index: 1;
+	border-radius: 20px;
+	background: linear-gradient(90.00deg, rgb(160, 89, 138),rgb(104, 122, 134) 100%);
+}
+.start-button::before{
+	content:'';
+	z-index: -1;
+  position: absolute;
+	top: -20px;
+	left: -15px;
+	right: -15px;
+	bottom: -15px;
+	background: #06060D;
+  border-radius: 20px 20px 20px 24px;
+  transition: all 1s ease;
+}
+.start-button::after{
+	content:'';
+	position: absolute;
+	border-radius: 20px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
+	transition: all 1s ease;
+	background:linear-gradient(90.00deg, rgb(160, 89, 138),rgb(104, 122, 134) 100%);
+}
+
+.start-button:hover::after {
+  width: 100%;
+}
+
+
+.start-learn-min{
+	display: none;
+}
+.start-learn__div-min{
+	border-radius: 20px;
+	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
+	background: linear-gradient(90.00deg, rgb(114, 128, 121) 22.936%,rgb(104, 122, 134) 71.436%);
+}
+
+.start-button-min{
+	z-index: 1;
+	border-radius: 20px;
+	box-shadow: 0px 0px 28px 24px rgba(34, 60, 80, 0.2);
+	background: linear-gradient(90.00deg, rgb(160, 89, 138),rgb(104, 122, 134) 100%);
+}
+
 
 @media(max-width:720px){
 	.nav{
@@ -231,6 +305,15 @@ body{
 		display: none;
 	}
 	.training-going-min{
+		display: flex;
+	}
+}
+
+@media(max-width:1200px){
+	.start-learn{
+		display: none;
+	}
+	.start-learn-min{
 		display: flex;
 	}
 }
