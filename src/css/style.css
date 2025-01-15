@@ -177,6 +177,7 @@ body{
 
 .training-going{
 	margin-bottom: 100px;
+
 }
 
 .train-list{
@@ -207,7 +208,6 @@ body{
 .start-learn{
 	margin-bottom: 100px;
 }
-
 .start-button{
 	position: absolute;
 	right: 18px;
@@ -249,6 +249,7 @@ body{
 
 .start-learn-min{
 	display: none;
+	margin-bottom: 50px;
 }
 .start-learn__div-min{
 	border-radius: 20px;
@@ -259,10 +260,30 @@ body{
 .start-button-min{
 	z-index: 1;
 	border-radius: 20px;
-	box-shadow: 0px 0px 28px 24px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
 	background: linear-gradient(90.00deg, rgb(160, 89, 138),rgb(104, 122, 134) 100%);
 }
 
+.sucess-min__div{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+
+.sucess-img{
+	position: relative;
+	top: 0;
+	left: 0;
+
+}
+.sucess-min{
+	display: none;
+}
+.success{
+	margin-bottom: 100px;
+}
 
 @media(max-width:720px){
 	.nav{
@@ -297,6 +318,7 @@ body{
 		opacity: 1;
 		visibility: visible;
 	}
+	
 }
 @media(max-width:850px){
 	.training-going-max{
@@ -304,14 +326,20 @@ body{
 	}
 	.training-going-min{
 		display: flex;
+		border-top: 1px solid rgb(104, 122, 134);
+		border-bottom: 1px solid rgb(104, 122, 134);
 	}
 	.training-going{
-		margin-bottom: 80px;
-		border-top: 1px solid #859FB0;
-		border-bottom: 1px solid #859FB0;
+		margin-bottom: 50px;
 	}
 	.learning{
 		margin-bottom: 40px;
+	}
+	.start-learn-min{
+		margin-bottom: 60px;
+	}
+	.success{
+		margin-bottom: 70px;
 	}
 }
 
@@ -321,6 +349,14 @@ body{
 	}
 	.start-learn-min{
 		display: flex;
-		margin-bottom: 100px;
+	}
+}
+
+@media(max-width:1000px){
+	.sucess-max{
+		display: none;
+	}
+	.sucess-min{
+		display: flex;
 	}
 }
