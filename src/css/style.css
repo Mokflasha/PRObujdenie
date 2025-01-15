@@ -71,6 +71,9 @@ body{
 .montserrat-sb{
 	font-family: 'Montserrat sb';
 }
+.montserrat-b{
+	font-family: 'Montserrat b';
+}
 .montserrat-it{
 	font-family: 'Montserrat it';
 }
@@ -78,7 +81,7 @@ body{
 	font-family: 'Montserrat';
 }
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
   height: 100%;
@@ -255,6 +258,7 @@ body{
 	border-radius: 20px;
 	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
 	background: linear-gradient(90.00deg, rgb(114, 128, 121) 22.936%,rgb(104, 122, 134) 71.436%);
+
 }
 
 .start-button-min{
@@ -283,6 +287,32 @@ body{
 }
 .success{
 	margin-bottom: 100px;
+}
+.for-who{
+	margin-bottom: 80px;
+}
+
+.for-who__div{
+	background: linear-gradient(180.00deg, rgb(132, 150, 162) 6.495%,rgba(160, 89, 138, 0.8) 100%);
+}
+.for-who__header{
+	margin: 0 auto;
+}
+
+.why-us__div{
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
+	background: linear-gradient(180.00deg, rgb(123, 134, 108),rgb(104, 122, 134) 100%);
+}
+.why-us__num{
+	content:'';
+	color: transparent;
+	left: 30px;
+	top: -60px;
+	background-clip: text;
+	background-image: linear-gradient(180.00deg, rgb(123, 134, 108),rgb(160, 89, 138));
+	position: absolute;
 }
 
 @media(max-width:720px){
@@ -340,6 +370,9 @@ body{
 	}
 	.success{
 		margin-bottom: 70px;
+	}
+	.for-who{
+		margin-bottom: 50px;
 	}
 }
 
