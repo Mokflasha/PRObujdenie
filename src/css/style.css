@@ -181,18 +181,12 @@ body{
 
 .train-list{
 	list-style-type: disc;
+	margin-bottom: 30px;
 }
 .train-item{
 	margin-left: 40px;
 }
-.train-img{
-	position: relative;
-}
-.training-list{
-	position: absolute;
-	left: 0;
-	top: 0;
-}
+
 .training-going-min{
 	display: none;
 }
@@ -310,6 +304,14 @@ body{
 	}
 	.training-going-min{
 		display: flex;
+	}
+	.training-going{
+		margin-bottom: 80px;
+		border-top: 1px solid #859FB0;
+		border-bottom: 1px solid #859FB0;
+	}
+	.learning{
+		margin-bottom: 40px;
 	}
 }
 
