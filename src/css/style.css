@@ -357,95 +357,18 @@ body{
 	right: 80px;
 	bottom: 100px;
 }
-@media(max-width:500px){
-	.tarif-img{
-		bottom: 50px;
-		left: 50px;
-		right: 50px;
-	}
-} 
-@media(max-width:720px){
-	.header {
-		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
-		, url("/mobile-background.jpg") 50% 12% / cover no-repeat;
-	
-	}
-	.nav{
-		position: fixed;
-		inset: 0;
-		z-index: 10;
-		background: rgb(8, 10, 8);
-		font-size: 24px;
-
-		transform: translateY(-50%);
-		opacity: 0;
-		visibility: hidden;
-		transition: all .4s;
-		display: flex;
-		margin: 0px;
-		/* flex-direction: row; */
-		align-items: start;
-		padding-top: 70px;
-		padding-left: 50px;
-		height: 100%;
-	}
-	.nav-list{
-		flex-direction: column;
-		gap: 25px;
-	}
-	.burger-icon {
-		display: flex;
-	}	
-	.body--opened-menu .nav {
-		transform: translateY(0%);
-		width: 200px;
-		opacity: 1;
-		visibility: visible;
-	}
-	
+.reviews__inner{
+	background: url("/reviews.jpeg") 50% 50% / cover no-repeat;
+	border-radius: 20px;
+}
+.review__button{
+	box-shadow: 0px 0px 8.3px 0px rgba(0, 0, 0, 0.15);
+	background: linear-gradient(180.00deg, rgba(0, 0, 0, 0.66) -29.073%,rgba(67, 0, 46, 0.73) 68.427%);
 }
 
-@media(max-width:850px){
-	.training-going-max{
-		display: none;
-	}
-	.training-going-min{
-		display: flex;
-		border-top: 1px solid rgb(104, 122, 134);
-		border-bottom: 1px solid rgb(104, 122, 134);
-	}
-	.training-going{
-		margin-bottom: 50px;
-	}
-	.learning{
-		margin-bottom: 40px;
-	}
-	.start-learn-min{
-		margin-bottom: 60px;
-	}
-	.success{
-		margin-bottom: 70px;
-	}
-	.for-who{
-		margin-bottom: 50px;
-	}
-	/* .tarif-img{
-		left: 90px;
-		bottom: 100px;
-	} */
-}
-
-@media(max-width:950px){
-	.sucess-max{
-		display: none;
-	}
-	.sucess-min{
-		display: flex;
-	}
-	/* .tarif-img{
-		right: 10px;
-		bottom: 100px;
-	} */
+.footer{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+	, url("/mobile-background.jpg") 50% 12% / cover no-repeat;
 }
 
 @media(max-width:1000px){
@@ -484,3 +407,102 @@ body{
 	}
 }
 
+@media(max-width:1000px){
+	.sucess-max{
+		display: none;
+	}
+	.sucess-min{
+		display: flex;
+	}
+}
+
+@media(max-width:950px){
+	.sucess-max{
+		display: none;
+	}
+	.sucess-min{
+		display: flex;
+	}
+}
+
+@media(max-width:850px){
+	.training-going-max{
+		display: none;
+	}
+	.training-going-min{
+		display: flex;
+		border-top: 1px solid rgb(104, 122, 134);
+		border-bottom: 1px solid rgb(104, 122, 134);
+	}
+	.training-going{
+		margin-bottom: 50px;
+	}
+	.learning{
+		margin-bottom: 40px;
+	}
+	.start-learn-min{
+		margin-bottom: 60px;
+	}
+	.success{
+		margin-bottom: 70px;
+	}
+	.for-who{
+		margin-bottom: 50px;
+	}
+}
+
+@media(max-width:720px){
+	.header {
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+		, url("/mobile-background.jpg") 50% 12% / cover no-repeat;
+	
+	}
+	.nav{
+		position: fixed;
+		inset: 0;
+		z-index: 10;
+		background: rgb(8, 10, 8);
+		font-size: 24px;
+
+		transform: translateY(-50%);
+		opacity: 0;
+		visibility: hidden;
+		transition: all .4s;
+		display: flex;
+		margin: 0px;
+		/* flex-direction: row; */
+		align-items: start;
+		padding-top: 70px;
+		padding-left: 50px;
+		height: 100%;
+	}
+	.nav-list{
+		flex-direction: column;
+		gap: 25px;
+	}
+	.burger-icon {
+		display: flex;
+	}	
+	.body--opened-menu .nav {
+		transform: translateY(0%);
+		width: 200px;
+		opacity: 1;
+		visibility: visible;
+	}
+	.reviews__inner{
+		background: url("/reviews2.jpeg") 53% 50% / cover no-repeat;
+		border-radius: 20px;
+	}
+}
+
+@media(max-width:500px){
+	.tarif-img{
+		bottom: 50px;
+		left: 50px;
+		right: 50px;
+	}
+	.reviews__inner{
+		background: url("/reviews3.jpeg") 50% 50% / cover no-repeat;
+		border-radius: 20px;
+	}
+} 
