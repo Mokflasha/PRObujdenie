@@ -329,6 +329,13 @@ body{
 	background-image: linear-gradient(180.00deg, rgb(123, 134, 108),rgb(160, 89, 138));
 	position: absolute;
 }
+.why-us-img{
+	content:'';
+	position: absolute;
+	left: 180px;
+	right: 45px;
+	bottom: 36px;
+}
 
 .first_slide{
 	background: linear-gradient(rgb(0, 0, 0),rgb(104, 122, 134));
@@ -449,6 +456,13 @@ body{
 	.for-who{
 		margin-bottom: 50px;
 	}
+	.why-us-img{
+		content:'';
+		position: absolute;
+		left: 153px;
+		right: 18px;
+		bottom: 36px;
+	}
 }
 
 @media(max-width:720px){
@@ -504,5 +518,12 @@ body{
 	.reviews__inner{
 		background: url("/reviews3.jpeg") 50% 50% / cover no-repeat;
 		border-radius: 20px;
+	}
+	.why-us-img{
+		content:'';
+		position: absolute;
+		left: 153px;
+		right: 18px;
+		bottom: 13px;
 	}
 } 
