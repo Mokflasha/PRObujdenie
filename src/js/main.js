@@ -59,8 +59,4 @@ document.addEventListener('click', burgerInit)
 				},
 			},
 
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
 		});

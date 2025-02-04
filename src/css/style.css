@@ -357,7 +357,13 @@ body{
 	right: 80px;
 	bottom: 100px;
 }
-
+@media(max-width:500px){
+	.tarif-img{
+		bottom: 50px;
+		left: 50px;
+		right: 50px;
+	}
+} 
 @media(max-width:720px){
 	.header {
 		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
