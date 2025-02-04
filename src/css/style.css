@@ -52,6 +52,15 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Montserrat el";
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"),
+    url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Montserrat-ExtraLight.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
   scroll-behavior: smooth;
@@ -76,6 +85,9 @@ body{
 }
 .montserrat-it{
 	font-family: 'Montserrat it';
+}
+.montserrat-el{
+	font-family: 'Montserrat el';
 }
 .montserrat{
 	font-family: 'Montserrat';
@@ -318,9 +330,32 @@ body{
 	position: absolute;
 }
 
-.price-sec{
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
-		, url("/ccc.jpg") 50% 12% / cover no-repeat;
+.first_slide{
+	background: linear-gradient(rgb(0, 0, 0),rgb(104, 122, 134));
+	position: relative;
+}
+.second_slide{
+	position: relative;
+	background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(160, 89, 138) 100%);
+}
+.premium{
+	-webkit-text-stroke: 1px black;
+}
+.popular{
+	border: solid 1px #9f588a;
+}
+.icon path{
+	fill: #90A9BD;
+}
+.icon2 path{
+	fill: #A0598A;
+}
+.tarif-img{
+	content:'';
+	position: absolute;
+	left: 80px;
+	right: 80px;
+	bottom: 100px;
 }
 
 @media(max-width:720px){
@@ -363,6 +398,7 @@ body{
 	}
 	
 }
+
 @media(max-width:850px){
 	.training-going-max{
 		display: none;
@@ -387,7 +423,51 @@ body{
 	.for-who{
 		margin-bottom: 50px;
 	}
+	/* .tarif-img{
+		left: 90px;
+		bottom: 100px;
+	} */
 }
+
+@media(max-width:950px){
+	.sucess-max{
+		display: none;
+	}
+	.sucess-min{
+		display: flex;
+	}
+	/* .tarif-img{
+		right: 10px;
+		bottom: 100px;
+	} */
+}
+
+@media(max-width:1000px){
+	.sucess-max{
+		display: none;
+	}
+	.sucess-min{
+		display: flex;
+	}
+	/* .tarif-img{
+		left: 40px;
+		bottom: 100px;
+	} */
+}
+/* 
+@media(max-width:1100px){
+	.tarif-img{
+		right: 53px;
+		bottom: 100px;
+	}
+}
+
+@media(max-width:1150px){
+	.tarif-img{
+		right: 60px;
+		bottom: 100px;
+	}
+} */
 
 @media(max-width:1200px){
 	.start-learn{
@@ -398,11 +478,3 @@ body{
 	}
 }
 
-@media(max-width:1000px){
-	.sucess-max{
-		display: none;
-	}
-	.sucess-min{
-		display: flex;
-	}
-}
