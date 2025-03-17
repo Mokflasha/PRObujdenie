@@ -228,6 +228,9 @@ body{
 .training-going-min{
 	display: none;
 }
+.us{
+	margin-bottom: 100px;
+}
 .start__header{
 	border-radius: 20px 20px 20px 0;
 	background: linear-gradient(90.00deg, rgb(114, 128, 121) 22.936%,rgb(104, 122, 134) 71.436%);
@@ -433,6 +436,9 @@ body{
 	}
 	.start-learn-min{
 		display: flex;
+	}
+	.us{
+		margin-bottom: 0px;
 	}
 }
 

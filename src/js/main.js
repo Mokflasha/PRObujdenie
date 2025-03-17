@@ -405,8 +405,17 @@ document.addEventListener('click', burgerInit)
 		import 'swiper/css/navigation';
 		import 'swiper/css/pagination';
 		
+		const swiper2 = new Swiper('.swiper-us', {
+			// Optional parameters
+			modules: [Navigation],
+			navigation: {
+				nextEl: '.button-next-us',
+				prevEl: '.button-prev-us',
+			},
+
+		});
 		// init Swiper:
-		const swiper = new Swiper('.swiper', {
+		const swiper = new Swiper('.swiper-price', {
 			// configure Swiper to use modules
 			modules: [Navigation],
 			slidesPerView: 3,

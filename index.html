@@ -1,390 +1,1061 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="src/css/output.css" rel="stylesheet">
+    <link href="src/css/output.css" rel="stylesheet" />
     <title>PRObujdenie</title>
   </head>
   <body>
     <header class="header mb-[50px]">
-			<nav class="nav container pb-[20px] max-[720px]:none">
-				<div class="nav-list flex text-base justify-center text-white pt-5 pb-20 gap-12">
-					<a class="nav__link py-1" href="#about">О курсе</a>
-					<a class="nav__link py-1" href="#why">Почему мы</a>
-					<a class="nav__link py-1" href="#program">Формат обучения</a>
-					<a class="nav__link py-1" href="#price">Стоимость</a>
-					<a class="nav__link py-1" href="#reviews">Отзывы</a>
-				</div>
-			</nav> 
-			<a class="burger-icon" href="#">
-				<span></span>
-			</a>
-			<div class="hero__header container mt-[20px] flex flex-col max-w-[634px] items-center justify-center">
-				<div class="w-32 h-32 max-w-[634px] mt-[20px] mb-[20px] max-[720px]:mt-[20px]"><img class="object-contain " src="/logo.png" alt=""></div>
-				<div><h1 class="constantine max-w-[634px] text-white text-7xl mb-5 max-[720px]:text-[50px] max-[720px]:pt-[40px] max-[470px]:text-[40px]">PROБУЖДЕНИЕ</h1></div>
-				<p class="max-w-[634px] text-center text-[#8496A2] mb-8 text-2xl max-[720px]:text-[20px] max-[720px]:pt-[30px] max-[470px]:text-[17px]">Курс, который поможет Вам раскрыть свой дар — установить связь с Высшим Я и научит слышать голос своего сердца.</p>
-				<a class="button constantine uppercase text-2xl max-w-[500px] w-full rounded-[20px] text-[24px] text-[#fff] mt-[40px] mb-[120px] flex justify-center items-center h-[80px] max-[450px]:h-[60px] max-[450px]:text-[17px] max-[450px]:max-w-[300px] " href="https://t.me/pro_awakening/27">занять свое место</a>
-			</div>
-		</header>
+      <nav class="nav container pb-[20px] max-[720px]:none">
+        <div
+          class="nav-list flex text-base justify-center text-white pt-5 pb-20 gap-12"
+        >
+          <a class="nav__link py-1" href="#about">О курсе</a>
+          <a class="nav__link py-1" href="#why">Почему мы</a>
+          <a class="nav__link py-1" href="#program">Формат обучения</a>
+          <a class="nav__link py-1" href="#price">Стоимость</a>
+          <a class="nav__link py-1" href="#reviews">Отзывы</a>
+        </div>
+      </nav>
+      <a class="burger-icon" href="#">
+        <span></span>
+      </a>
+      <div
+        class="hero__header container mt-[20px] flex flex-col max-w-[634px] items-center justify-center"
+      >
+        <div
+          class="w-32 h-32 max-w-[634px] mt-[20px] mb-[20px] max-[720px]:mt-[20px]"
+        >
+          <img class="object-contain" src="/logo.png" alt="" />
+        </div>
+        <div>
+          <h1
+            class="constantine max-w-[634px] text-white text-7xl mb-5 max-[720px]:text-[50px] max-[720px]:pt-[40px] max-[470px]:text-[40px]"
+          >
+            PROБУЖДЕНИЕ
+          </h1>
+        </div>
+        <p
+          class="max-w-[634px] text-center text-[#8496A2] mb-8 text-2xl max-[720px]:text-[20px] max-[720px]:pt-[30px] max-[470px]:text-[17px]"
+        >
+          Курс, который поможет Вам раскрыть свой дар — установить связь с
+          Высшим Я и научит слышать голос своего сердца.
+        </p>
+        <a
+          class="button constantine uppercase text-2xl max-w-[500px] w-full rounded-[20px] text-[24px] text-[#fff] mt-[40px] mb-[120px] flex justify-center items-center h-[80px] max-[450px]:h-[60px] max-[450px]:text-[17px] max-[450px]:max-w-[300px]"
+          href="https://t.me/pro_awakening/27"
+          >занять свое место</a
+        >
+      </div>
+    </header>
     <main>
-			<section id="about" class="learning flex flex-col container">
-				<h2 class="learning-header constantine text-[#7B866C] text-[60px] max-[750px]:text-[50px] max-[570px]:text-[40px] max-[460px]:text-[32px]">Чему вы научитесь?</h2>
-				<div class="flex justify-between gap-[47px] mt-[50px] max-[1200px]:gap-[40px] max-[900px]:flex-wrap max-[1200px]:justify-center">
-					<div class="flex flex-col items-center max-w-[200px] max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]">
-						<img class="rounded-[30px] w-[200px] mb-[30px] max-[560px]:mb-[20px] " src="/what1.jpeg" alt="">
-						<p class="max-w-[190px] text-center montserrat-sb text-[#687A86] max-[560px]:text-[14px]">Слышать себя и свой внутренний голос</p>
-					</div>
-					<div class="flex flex-col items-center max-w-[200px] max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]">
-						<img class="rounded-[30px] w-[200px] mb-[30px]  max-[560px]:mb-[20px]" src="/what2.jpeg" alt="">
-						<p class="max-w-[150px] text-center montserrat-sb text-[#687A86] max-[560px]:text-[14px]">Устанавливать контакт с духовными наставниками</p>
-					</div>
-					<div class="flex flex-col max-w-[200px] items-center max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]">
-						<img class="rounded-[30px] w-[200px] mb-[30px]  max-[560px]:mb-[20px]" src="/what3.jpeg" alt="">
-						<p class=" montserrat-sb text-center text-[#687A86] max-[560px]:text-[14px]">Практиковать ченнелинг для получения ответов на важные вопросы</p>
-					</div>
-					<div class="flex flex-col max-w-[200px]  items-center max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]">
-						<img class="rounded-[30px] w-[200px] mb-[30px]  max-[560px]:mb-[20px]" src="/what4.jpeg" alt="">
-						<p class="max-w-[190px] montserrat-sb text-center text-[#687A86] max-[560px]:text-[14px]">Исцелять старые программы и повышать вибрации</p>
-					</div>
-					<div class="flex flex-col max-w-[200px]  items-center max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]">
-						<img class="rounded-[30px] w-[200px] mb-[30px]  max-[560px]:mb-[20px]" src="/what5.jpeg" alt="">
-						<p class="max-w-[190px] montserrat-sb text-center text-[#687A86]  max-[560px]:text-[14px]">Раскрывать свои способности и таланты</p>
-					</div>
-				</div>
-			</section>
-			<section id="program" class="training-going container">
-				<div class="training-going-max flex justify-between">
-					<img class="train-img rounded-[20px] max-w-[540px] max-[1100px]:max-w-[460px]  max-[870px]:max-w-[400px] max-[870px]:h-[400px]" src="/training1.jpg" alt="">
-					<div class="flex flex-col justify-center ml-[40px]">
-						<h3 class="constantine text-[60px] text-[#687A86] text-end pb-[40px] max-[1100px]:text-[40px]">Как проходит обучение?</h3>
-						<p class="text-[#B3B3B4] ml-[30px] montserrat max-[1100px]:text-[14px] max-[800px]:text-[13px]">ФОРМАТ ОБУЧЕНИЯ:</p>
-						<ul class="train-list montserrat text-[#B3B3B4] mb-[30px] max-[1100px]:text-[14px] max-[800px]:text-[13px]">
-							<li class="train-item">онлайн-занятия в режиме реального времени</li>
-							<li class="train-item">система домашних заданий с обратной связью </li>
-							<li class="train-item">запись уроков доступна навсегда</li>
-							<li class="train-item">индивидуальный подход даже в групповой работе</li>
-						</ul>
-						<p class="text-[#B3B3B4] ml-[30px] montserrat max-[1100px]:text-[14px] max-[800px]:text-[13px]">ЭТАПЫ КУРСА:</p>
-						<ul class="train-list montserrat tarin-list text-[#B3B3B4] max-[1100px]:text-[14px] max-[800px]:text-[13px]">
-							<li class="train-item">освобождение от старых программ</li>
-							<li class="train-item">повышение вибраций</li>
-							<li class="train-item">знакомство с духовными наставниками</li>
-							<li class="train-item">практика ченнелинга</li>
-						</ul>
-					</div>
-				</div>
-				<div class="training-going-min flex justify-center">
-					<div class="train-img training-list flex flex-col justify-center ml-[10px] ">
-						<div class="training-list flex flex-col justify-center ml-[10px]">
-							<h3 class="constantine text-[40px] text-end pt-[30px] pr-[20px] pl-[20px] text-[#859FB0] pb-[40px] max-[380px]:pb-[20px]  max-[380px]:pt-[20px] max-[380px]:text-[35px]">Как проходит обучение?</h3>
-							<p class="text-[#B3B3B4] montserrat max-[1100px]:text-[17px] max-[800px]:text-[15px] max-[380px]:text-[14px] ">ФОРМАТ ОБУЧЕНИЯ:</p>
-							<ul class="train-list montserrat text-[#B3B3B4] mb-[30px] max-[1100px]:text-[16px] max-[800px]:text-[15px] max-[380px]:text-[14px]">
-								<li class="train-item">онлайн-занятия в режиме реального времени</li>
-								<li class="train-item">система домашних заданий с обратной связью </li>
-								<li class="train-item">запись уроков доступна навсегда</li>
-								<li class="train-item">индивидуальный подход даже в групповой работе</li>
-							</ul>
-							<p class="text-[#B3B3B4] montserrat max-[1100px]:text-[17px] max-[800px]:text-[16px] max-[380px]:text-[15px]">ЭТАПЫ КУРСА:</p>
-							<ul class="train-list montserrat tarin-list text-[#B3B3B4] max-[1100px]:text-[16px] max-[800px]:text-[15px] max-[380px]:text-[14px]">
-								<li class="train-item">освобождение от старых программ</li>
-								<li class="train-item">повышение вибраций</li>
-								<li class="train-item">знакомство с духовными наставниками</li>
-								<li class="train-item">практика ченнелинга</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="start-learn container">
-				<div class="start-learn__div w-full h-[350px]">
-					<div class="start__header h-[200px]">
-						<h3 class="constantine text-[55px] pt-[40px] ml-[65px] text-[#fff]">Не упустите шанс изменить свою жизнь!</h3>
-					</div>
-					<div class="start__par max-w-[835px] h-[130px]"><p class="montserrat-it text-[#fff] text-[25px] pt-[20px] ml-[65px] max-w-[700px]">Запишитесь прямо сейчас и начните свой путь к гармонии и духовному росту.</p></div>
-					<a class="start-button constantine text-[25px] text-[#fff] flex justify-center items-center max-w-[350px] w-full h-[105px] uppercase" href="">Начать обучение</a>
-				</div>
-			</section>
-			<section class="start-learn-min container">
-				<div class="start-learn__div-min w-full flex flex-col justify-center items-center">
-					<h3 class="constantine text-[55px] pt-[40px] ml-[65px] text-[#fff] pr-[20px] max-[800px]:text-[40px] max-[600px]:text-[34px] max-[600px]:ml-[30px] max-[450px]:text-[28px]">Не упустите шанс изменить свою жизнь!</h3>
-					<p class="montserrat-it text-[#fff] text-[25px] pt-[35px] ml-[65px] self-start max-w-[700px] pr-[20px] max-[800px]:text-[20px] max-[600px]:text-[18px]  max-[600px]:ml-[30px] max-[450px]:text-[15px]">Запишитесь прямо сейчас и начните прямо сейчас и начните свой путь к гармонии и духовному росту.</p>
-					<a class="start-button-min constantine text-[25px] text-[#fff] flex mt-[40px] mb-[20px] justify-center items-center max-w-[450px] w-full h-[105px] max-[800px]:h-[90px] max-[600px]:h-[80px] max-[600px]:max-w-[350px] max-[600px]:text-[20px] max-[450px]:h-[70px] max-[450px]:max-w-[300px] uppercase" href="">Начать обучение</a>
-				</div>
-			</section>
-			<section class="success container">
-				<div class="sucess-max flex justify-between">
-					<div class="flex flex-col justify-center ml-[40px] max-w-[540px]">
-						<h3 class="constantine text-[64px] text-[#687A86] text-start pb-[40px] max-w-[530px] max-[1100px]:text-[55px]">Шаг за шагом — к результату!</h3>
-						<p class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[20px] ">Вы научитесь работать с энергией, управлять мыслями и эмоциями, развивать яснознание и ясновидение.</p>
-						<p class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[20px] ">Новички легко встроят практики в свою жизнь, а опытные практики откроют новые горизонты: коррекция энергетики, работа с родовыми программами и многое другое.</p>
-						<p class="text-[#B3B3B4] text-[20px] montserrat-sb max-[1150px]:text-[18px] ">Курс «Пробуждение» — это трансформационный путь для любого уровня подготовки. </p>
-					</div>
-					<img class="train-img rounded-[20px] max-w-[540px] max-[1100px]:max-w-[460px]  max-[870px]:max-w-[400px] max-[870px]:h-[400px]" src="/sucess.jpeg" alt="">
-				</div>
-				<div class="sucess-min flex justify-center ">
-					<div class="sucess-img flex ">
-						<img class=" rounded-[20px] max-w-[540px] max-w-[600px] max-[600px]:max-w-[450px] max-[450px]:max-w-[400px] max-[400px]:max-w-[360px]" src="/sucess2.jpeg" alt="">
-						<div class="sucess-min__div flex ml-[20px] pr-[20px] flex-col justify-center items-center max-w-[540px]">
-							<h3 class="constantine text-[64px] text-[#687A86] text-start pt-[20px] pb-[15px] max-w-[530px] max-[1100px]:text-[55px] max-[600px]:text-[30px] max-[450px]:text-[30px]  max-[400px]:text-[25px] max-[400px]:pb-[10px]">Шаг за шагом — к результату!</h3>
-							<p class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[15px] max-[600px]:text-[15px] max-[450px]:text-[14px] max-[400px]:text-[13px]">Вы научитесь работать с энергией, управлять мыслями и эмоциями, развивать яснознание и ясновидение.</p>
-							<p class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[15px] max-[600px]:text-[15px] max-[450px]:text-[14px] max-[400px]:text-[13px]">Новички легко встроят практики в свою жизнь, а опытные практики откроют новые горизонты: коррекция энергетики, работа с родовыми программами и многое другое.</p>
-							<p class="text-[#B3B3B4] text-[20px] montserrat-sb max-[1150px]:text-[18px] max-[600px]:text-[15px] max-[450px]:text-[14px] max-[400px]:text-[13px]">Курс «Пробуждение» — это трансформационный путь для любого уровня подготовки. </p>
-						</div>
-					</div>
-					
-				</div>
-			</section>
-			<section class="for-who container">
-				<h4 class="for-who__header constantine uppercase text-[#A0598A] text-center pb-[40px] text-[64px] max-[800px]:text-[55px] max-[650px]:text-[45px] max-[500px]:text-[35px]">этот курс для тех кто:</h4>
-				<div class="flex justify-between max-[1200px]:justify-center max-[800px]:flex-col max-[800px]:items-center max-[1200px]:gap-[20px]">
-					<div class="for-who__div rounded-[30px] h-[200px] w-full max-w-[590px] flex items-center justify-center max-[1200px]:max-w-[500px] max-[800px]:max-w-[600px] max-[500px]:h-[150px]">
-						<p class="text-[#fff] montserrat  max-w-[380px] text-center  text-[24px] pl-[15px] pr-[15px] max-[900px]:text-[22px] max-[800px]:text-[24px] max-[500px]:text-[20px]">Только начинает свой путь и хочет понять, как работают тонкие энергии</p>
-					</div>
-					<div class="for-who__div rounded-[30px] h-[200px] w-full max-w-[590px] flex items-center justify-center max-[1200px]:max-w-[500px] max-[800px]:max-w-[600px] max-[500px]:h-[150px]">
-						<p class="text-[#fff] montserrat max-w-[400px] text-center text-[24px] pl-[15px] pr-[15px] max-[900px]:text-[22px] max-[800px]:text-[24px] max-[500px]:text-[20px]">Уже практикует, но ищет эффективные техники, которые действительно дают результат</p>
-					</div>
-				</div>
-			</section>
-			<section id="why" class="why-us container">
-				<h4 class="constantine uppercase text-[#687A86] text-[60px] text-center pb-[150px]  max-[700px]:text-[45px] max-[700px]:pb-[100px] max-[550px]:text-[35px]  max-[550px]:pt-[45px] max-[470px]:pb-[80px]">Почему выбирают курс PROбуждение?</h4>
-				<div class="flex flex-wrap justify-center gap-[50px] gap-y-24">
-					<div class="why-us__div max-w-[490px] w-full h-[465px]  pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]">
-						<p class="why-us__num montserrat-b text-[75px]">01</p>
-						<h6 class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px] ">Качество</h6>
-						<p class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px pr-[10px]  max-[880px]:text-[22px] max-[780px]:text-[19px] ">Ощутимые результаты уже после первых занятий.</p>
-						<div class="why-us-img"><img src="/logo2.png" alt=""></div>
-					</div>
-					<div class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]">
-						<p class="why-us__num montserrat-b text-[75px]">02</p>
-						<h6 class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]">Доверие</h6>
-						<p class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px] pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px] ">Авторская методика, проверенная временем и десятками учеников. результаты уже после первых занятий.</p>
-						<div class="why-us-img"><img src="/logo2.png" alt=""></div>
-					</div>
-					<div class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]">
-						<p class="why-us__num montserrat-b text-[75px]">03</p>
-						<h6 class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]">Гармония</h6>
-						<p class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px] pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px]">Работа с подсознанием для полной трансформации, восстановление внутреннего баланса и энергии.</p>
-						<div class="why-us-img"><img src="/logo2.png" alt=""></div>
-					</div>
-					<div class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]">
-						<p class="why-us__num montserrat-b text-[75px]">04</p>
-						<h6 class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]">Универсальность</h6>
-						<p class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px] pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px]">Курс подходит для новичков и опытных практиков.</p>
-						<div class="why-us-img"><img src="/logo2.png" alt=""></div>
-					</div>
-				</div>
-			</section>
-			<section id="price" class="tarifs-desktop container">
-				<h4 class="constantine text-center text-[#A0598A] text-[64px] max-[500px]:text-[50px]">Тарифы</h4>
-				<div class="swiper">
-					<!-- Additional required wrapper -->
-					<div class="swiper-wrapper flex items-end">
-						<!-- Slides -->
-						<div class="swiper-slide">
-							<div class="first_slide h-[1400px] max-w-[380px] rounded-[20px] flex flex-col max-[500px]:h-[1240px]">
-								<div class="border-b-[1px] pl-[22px] pr-[22px] pt-[50px] pb-[20px]">
-									<h5 class="constantine text-[#fff] text-[43px] max-[1100px]:text-[35px] max-[500px]:text-[25px]">Лайт</h5>
-									<p class="montserrat-b text-[#fff] text-[35px] pt-[10px] max-[1100px]:text-[30px] max-[500px]:text-[25px]">6990₽</p>
-									<p class="montserrat-el text-[#fff] text-[18px] pt-[10px] max-[1100px]:text-[15px] max-[500px]:text-[13px]">*Доступна рассрочка от 3 до 12 мес </p>
-									<a class="constantine uppercase max-w-[335px] w-full rounded-[20px] text-[20px] bg-[#7993A4] text-[#fff] mt-[30px] flex justify-center items-center h-[60px] max-[1100px]:text-[17px] max-[500px]:h-[50px] max-[500px]:text-[15px]" href="https://t.me/pro_awakening/27">Записаться на курс</a>
+      <section id="about" class="learning flex flex-col container">
+        <h2
+          class="learning-header constantine text-[#7B866C] text-[60px] max-[750px]:text-[50px] max-[570px]:text-[40px] max-[460px]:text-[32px]"
+        >
+          Чему вы научитесь?
+        </h2>
+        <div
+          class="flex justify-between gap-[47px] mt-[50px] max-[1200px]:gap-[40px] max-[900px]:flex-wrap max-[1200px]:justify-center"
+        >
+          <div
+            class="flex flex-col items-center max-w-[200px] max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]"
+          >
+            <img
+              class="rounded-[30px] w-[200px] mb-[30px] max-[560px]:mb-[20px]"
+              src="/what1.jpeg"
+              alt=""
+            />
+            <p
+              class="max-w-[190px] text-center montserrat-sb text-[#687A86] max-[560px]:text-[14px]"
+            >
+              Слышать себя и свой внутренний голос
+            </p>
+          </div>
+          <div
+            class="flex flex-col items-center max-w-[200px] max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]"
+          >
+            <img
+              class="rounded-[30px] w-[200px] mb-[30px] max-[560px]:mb-[20px]"
+              src="/what2.jpeg"
+              alt=""
+            />
+            <p
+              class="max-w-[150px] text-center montserrat-sb text-[#687A86] max-[560px]:text-[14px]"
+            >
+              Устанавливать контакт с духовными наставниками
+            </p>
+          </div>
+          <div
+            class="flex flex-col max-w-[200px] items-center max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]"
+          >
+            <img
+              class="rounded-[30px] w-[200px] mb-[30px] max-[560px]:mb-[20px]"
+              src="/what3.jpeg"
+              alt=""
+            />
+            <p
+              class="montserrat-sb text-center text-[#687A86] max-[560px]:text-[14px]"
+            >
+              Практиковать ченнелинг для получения ответов на важные вопросы
+            </p>
+          </div>
+          <div
+            class="flex flex-col max-w-[200px] items-center max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]"
+          >
+            <img
+              class="rounded-[30px] w-[200px] mb-[30px] max-[560px]:mb-[20px]"
+              src="/what4.jpeg"
+              alt=""
+            />
+            <p
+              class="max-w-[190px] montserrat-sb text-center text-[#687A86] max-[560px]:text-[14px]"
+            >
+              Исцелять старые программы и повышать вибрации
+            </p>
+          </div>
+          <div
+            class="flex flex-col max-w-[200px] items-center max-[1200px]:max-w-[150px] max-[570px]:max-w-[130px]"
+          >
+            <img
+              class="rounded-[30px] w-[200px] mb-[30px] max-[560px]:mb-[20px]"
+              src="/what5.jpeg"
+              alt=""
+            />
+            <p
+              class="max-w-[190px] montserrat-sb text-center text-[#687A86] max-[560px]:text-[14px]"
+            >
+              Раскрывать свои способности и таланты
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="program" class="training-going container">
+        <div class="training-going-max flex justify-between">
+          <img
+            class="train-img rounded-[20px] max-w-[540px] max-[1100px]:max-w-[460px] max-[870px]:max-w-[400px] max-[870px]:h-[400px]"
+            src="/training1.jpg"
+            alt=""
+          />
+          <div class="flex flex-col justify-center ml-[40px]">
+            <h3
+              class="constantine text-[60px] text-[#687A86] text-end pb-[40px] max-[1100px]:text-[40px]"
+            >
+              Как проходит обучение?
+            </h3>
+            <p
+              class="text-[#B3B3B4] ml-[30px] montserrat max-[1100px]:text-[14px] max-[800px]:text-[13px]"
+            >
+              ФОРМАТ ОБУЧЕНИЯ:
+            </p>
+            <ul
+              class="train-list montserrat text-[#B3B3B4] mb-[30px] max-[1100px]:text-[14px] max-[800px]:text-[13px]"
+            >
+              <li class="train-item">
+                онлайн-занятия в режиме реального времени
+              </li>
+              <li class="train-item">
+                система домашних заданий с обратной связью
+              </li>
+              <li class="train-item">запись уроков доступна навсегда</li>
+              <li class="train-item">
+                индивидуальный подход даже в групповой работе
+              </li>
+            </ul>
+            <p
+              class="text-[#B3B3B4] ml-[30px] montserrat max-[1100px]:text-[14px] max-[800px]:text-[13px]"
+            >
+              ЭТАПЫ КУРСА:
+            </p>
+            <ul
+              class="train-list montserrat tarin-list text-[#B3B3B4] max-[1100px]:text-[14px] max-[800px]:text-[13px]"
+            >
+              <li class="train-item">освобождение от старых программ</li>
+              <li class="train-item">повышение вибраций</li>
+              <li class="train-item">знакомство с духовными наставниками</li>
+              <li class="train-item">практика ченнелинга</li>
+            </ul>
+          </div>
+        </div>
+        <div class="training-going-min flex justify-center">
+          <div
+            class="train-img training-list flex flex-col justify-center ml-[10px]"
+          >
+            <div class="training-list flex flex-col justify-center ml-[10px]">
+              <h3
+                class="constantine text-[40px] text-end pt-[30px] pr-[20px] pl-[20px] text-[#859FB0] pb-[40px] max-[380px]:pb-[20px] max-[380px]:pt-[20px] max-[380px]:text-[35px]"
+              >
+                Как проходит обучение?
+              </h3>
+              <p
+                class="text-[#B3B3B4] montserrat max-[1100px]:text-[17px] max-[800px]:text-[15px] max-[380px]:text-[14px]"
+              >
+                ФОРМАТ ОБУЧЕНИЯ:
+              </p>
+              <ul
+                class="train-list montserrat text-[#B3B3B4] mb-[30px] max-[1100px]:text-[16px] max-[800px]:text-[15px] max-[380px]:text-[14px]"
+              >
+                <li class="train-item">
+                  онлайн-занятия в режиме реального времени
+                </li>
+                <li class="train-item">
+                  система домашних заданий с обратной связью
+                </li>
+                <li class="train-item">запись уроков доступна навсегда</li>
+                <li class="train-item">
+                  индивидуальный подход даже в групповой работе
+                </li>
+              </ul>
+              <p
+                class="text-[#B3B3B4] montserrat max-[1100px]:text-[17px] max-[800px]:text-[16px] max-[380px]:text-[15px]"
+              >
+                ЭТАПЫ КУРСА:
+              </p>
+              <ul
+                class="train-list montserrat tarin-list text-[#B3B3B4] max-[1100px]:text-[16px] max-[800px]:text-[15px] max-[380px]:text-[14px]"
+              >
+                <li class="train-item">освобождение от старых программ</li>
+                <li class="train-item">повышение вибраций</li>
+                <li class="train-item">знакомство с духовными наставниками</li>
+                <li class="train-item">практика ченнелинга</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+			<section class="us container ">
+				<h4 class="constantine text-[60px] mb-[50px] text-center text-[#687A86] max-[500px]:text-[40px]">авторы курса</h4>
+        <div class="swiper swiper-us">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide-us">
+              <div class="flex justify-center items-center gap-[40px] montserrat  max-[9000px]:justify-between">
+                <div class="button-prev-us">
+                  <img src="/arrow_left.png" alt="" />
+                </div>
+								<div class="flex  max-[900px]:flex-col-reverse items-center  max-[900px]:mb-[50px]">
+									<div class="text-[#fff] max-w-[390px] text-[20px] max-[1170px]:text-[17px] max-[1000px]:text-[15px]  max-[900px]:max-w-[550px] max-[900px]:text-[20px] max-[900px]:text-center  max-[700px]:text-[15px] max-[500px]:text-[13px]">
+										<p class="pb-[20px]">
+											Экстрасенс-ченнелер с 27-летним опытом, психолог PSY2.0,
+											педагог и исследователь эзотерики. Мои знания и практика
+											помогают людям раскрыть сверхспособности, изменить
+											восприятие реальности и двигаться по пути эволюции.
+										</p>
+										<p class="pb-[40px]">
+											<span class="montserrat-b">PROбуждение</span> — это выход за
+											границы старых ограничений, обретение ясного видения и
+											нового уровня осознанности. Наш курс создан для тех, кто
+											хочет видеть глубже, избавиться от ограничивающих программ и
+											раскрыть свой потенциал.
+										</p>
+										<p class="montserrat-b text-[25px]">Ирина Ивасенко</p>
+										<p class="text-[20px]">Автор, сооснователь</p>
+									</div>
+									<div>
+										<img class="max-[900px]:w-[300px] max-[500px]:w-[200px]  max-[500px]:mb-[20px]" src="/irina.png" alt="" />
+									</div>
 								</div>
-								<div class="montserrat pl-[22px] pt-[40px] pr-[10px]">
-									<ul class="flex gap-6 flex-col shrink-0 text-[#fff] text-[19px] max-[1100px]:text-[17px] max-[500px]:text-[15px]">
-										<li class="flex gap-4 max-[500px]:gap-2">
-												<div class="shrink-0 h-[25px] w-[25px]"><img src="/tick.svg" alt=""></div>
-												<p>Длительность обучения 3 недели. Еженедельно 1-1,5 часа в записи
-													для самостоятельного изучения + 1 живая встреча в онлайн</p>
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-												<div class="shrink-0 h-[25px] w-[25px]"><img src="/tick.svg" alt=""></div>
-												4 медитации в записи: <br>
-- отпускаем страхи <br>
-- убираем самообесценивание <br>
-- принятие/непринятие себя <br>
-- заряжаемся энергией на улучшение качества жизни на 2025 год
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-												<div class="shrink-0 h-[25px] w-[25px]"><img src="/tick.svg" alt=""></div>
-												Групповая практика знакомства со своим Наставником /  Ангелом-Хранителем в живом  онлайн формате
-										</li>
-								</ul>
+                <div class="button-next-us">
+                  <img src="/arrow_right.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide-us">
+              <div class="flex justify-center items-center gap-[40px] montserrat  max-[9000px]:justify-between">
+                <div class="button-prev-us">
+                  <img src="/arrow_left.png" alt="" />
+                </div>
+								<div class="flex  max-[900px]:flex-col-reverse items-center  max-[900px]:mb-[50px]">
+									<div class="text-[#fff] max-w-[390px] text-[20px] max-[1170px]:text-[17px] max-[1000px]:text-[15px]  max-[900px]:max-w-[550px] max-[900px]:text-[20px] max-[900px]:text-center max-[700px]:text-[15px]  max-[500px]:text-[13px]">
+										<p class="pb-[20px]">
+											Психолог - психосоматолог PSY 2:0, ченнелер - проводник в мир осознанности и самопознания. 
+										</p>
+										<p class="pb-[20px]">
+											С 2019 помогаю людям глубже понять себя, освободиться от ограничений и раскрыть свой потенциал. 
+										</p>
+										<p class="pb-[40px]">
+											За это время более 100 человек прошли с нами путь трансформации — в индивидуальном и групповом формате. Нам важно, чтобы каждый, кто приходит к нам на курс, открывал в себе новые возможности чувствования и яснознания.
+										</p>
+										<p class="montserrat-b text-[25px]">Анна Ватякова</p>
+										<p class="text-[20px]">Автор, сооснователь</p>
+									</div>
+									<div>
+										<img class="max-[900px]:w-[300px] max-[500px]:w-[200px] max-[500px]:mb-[20px]" src="/anna3.png" alt="" />
+									</div>
 								</div>
-								<div class="tarif-img"><img src="/logo2.png" alt=""></div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="second_slide h-[1460px] max-w-[380px] rounded-[20px] flex flex-col max-[500px]:h-[1300px]">
-								<div class="border-b-[2px] border-[#000] pl-[22px] pr-[22px] pt-[30px] pb-[20px]">
-									<div class="popular text-[#fff] rounded-[30px] max-w-[310px] h-[50px] mb-[30px] flex items-center justify-center montserrat text-[21px] max-[500px]:text-[17px]">Самый популярный</div>
-									<h5 class="constantine text-[#fff] text-[43px] max-[1100px]:text-[35px] max-[500px]:text-[25px]">Премиум</h5>
-									<p class="montserrat-b text-[#fff] text-[35px] pt-[10px] max-[1100px]:text-[30px] max-[500px]:text-[25px]">24990₽</p>
-									<p class="montserrat-el text-[#fff] text-[18px] pt-[10px]  max-[1100px]:text-[15px] max-[500px]:text-[13px]">*Доступна рассрочка от 3 до 12 мес </p>
-									<a class="constantine uppercase max-w-[335px] w-full rounded-[20px] text-[20px] bg-[#CFA2C2] text-[#000] mt-[30px] flex justify-center items-center h-[60px] max-[1100px]:text-[17px] max-[500px]:h-[50px] max-[500px]:text-[15px]" href="https://t.me/pro_awakening/27">Записаться на курс</a>
-								</div>
-								<div class="montserrat pl-[22px] pt-[40px] pr-[10px]">
-									<ul class="flex gap-6 flex-col shrink-0 text-[#fff] text-[19px] max-[1100px]:text-[17px] max-[500px]:text-[15px]">
-										<li class="flex gap-4 max-[500px]:gap-2 pb-[28px] max-[439px]:pb-[22px]">
-												<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg>
-												</div>
-												<p>Длительность обучения 3 недели. Еженедельно 2-2,5 часа живых онлайн встреч в мини-группах до 12 человек</p>
-										</li>
-										<li class="flex gap-4 max-[500px]:gap-2">
-												<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector2" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg>
-												</div>
-												4 медитации в записи: <br>
-- отпускаем страхи <br>
-- убираем самообесценивание <br>
-- принятие/непринятие себя <br>
-- заряжаемся энергией на улучшение качества жизни на 2025 год
-										</li>
-										<li class="flex gap-4 max-[500px]:gap-2">
-												<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector3" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg>
-												</div>
-												Групповая практика знакомства со своим Наставником /  Ангелом-Хранителем в живом  онлайн формате
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-												<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector4" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg>
-												</div>
-												1 групповая практика выхода на тонкий план, работа с артефактами
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-												<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector5" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg>
-												</div>
-												Разборы личных запросов в групповом поле через ваших Наставников
-										</li>
-								</ul>
-								</div>
-								<div class="tarif-img"><img src="/logo2.png" alt=""></div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="first_slide h-[1400px] max-w-[380px] rounded-[20px] flex flex-col max-[500px]:h-[1240px]">
-								<div class="border-b-[1px] pl-[22px] pr-[22px] pt-[50px] pb-[20px]">
-									<h5 class="constantine text-[#fff] text-[43px] max-[1100px]:text-[35px] max-[500px]:text-[25px]">VIP</h5>
-									<p class="montserrat-b text-[#fff] text-[35px] pt-[10px] max-[1100px]:text-[30px] max-[500px]:text-[25px]">49990₽</p>
-									<p class="montserrat-el text-[#fff] text-[18px] pt-[10px] max-[1100px]:text-[15px] max-[500px]:text-[13px]">*Доступна рассрочка от 3 до 12 мес </p>
-									<a class="constantine uppercase max-w-[335px] w-full rounded-[20px] text-[20px] bg-[#7993A4] text-[#fff] mt-[30px] flex justify-center items-center h-[60px] max-[1100px]:text-[17px] max-[500px]:h-[50px] max-[500px]:text-[15px]" href="https://t.me/pro_awakening/27">Записаться на курс</a>
-								</div>
-								<div class="montserrat pl-[22px] pt-[40px] pr-[10px]">
-									<ul class="flex gap-6 flex-col shrink-0 text-[#fff] text-[19px] max-[1100px]:text-[17px] max-[500px]:text-[15px]">
-										<li class="flex gap-4 max-[500px]:gap-2 pb-[28px] max-[439px]:pb-[22px] max-[421px]:pb-[0px]  max-[396px]:pb-[20px]">
-												<div class="icon2 shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector6" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg></div>
-												<p>Длительность обучения 3 недели. Еженедельно 2 часа живых онлайн встреч в индивидуальном порядке</p>
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-												<div class="icon2 shrink-0"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector7" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg></div>
-												4 медитации в записи: <br>
-- отпускаем страхи <br>
-- убираем самообесценивание <br>
-- принятие/непринятие себя <br>
-- заряжаемся энергией на улучшение качества жизни на 2025 год
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-												<div class="icon2 shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-													<defs/>
-													<path id="Vector8" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-												</svg></div>
-												Индивидуальная практика знакомства со своим Наставником/ Ангелом-Хранителем в живом онлайн формате
-										</li>
-										<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-											<div class="icon2 shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-												<defs/>
-												<path id="Vector9" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-											</svg>
-											</div>
-											3 индивидуальных практики выхода на тонкий план, работа с артефактами
-									</li>
-									<li class="accordion-content__item flex gap-4 max-[500px]:gap-2">
-										<div class="icon2 shrink-0 h-[25px] w-[25px]"><svg width="25" height="25" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-											<defs/>
-											<path id="Vector0" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-										</svg>
-										</div>
-										Разборы личных запросов в индивидуальном  или групповом поле (по желанию) через вашего Наставника
-								</li>
-								</ul>
-								</div>
-								<div class="tarif-img"><img src="/logo2.png" alt=""></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="reviews" class="container">
-				<div class="reviews__inner mt-[100px] pl-[15px] pr-[15px] flex flex-col items-center">
-					<h4 class="constantine text-[45px] text-[#fff] pt-[50px] pb-[25px] max-[1000px]:text-[38px] text-center max-[630px]:text-[30px]">Более 100 довольных учеников</h4>
-					<ul class="flex gap-3 flex-col pb-[20px] shrink-0 montserrat text-[#fff] text-[30px] max-[1000px]:text-[22px] max-[630px]:text-[18px] max-[600px]:gap-5">
-						<li class="flex gap-4 items-center">
-								<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="27" height="27" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<defs/>
-									<path id="Vector10" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-								</svg>
-								</div>
-								<p>Освободились от страхов и сомнений</p>
-						</li>
-						<li class="flex gap-4 items-center">
-								<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="27" height="27" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<defs/>
-									<path id="Vector12" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-									</svg>
-								</div>
-								Усилили интуицию и связь с Наставниками
-						</li>
-						<li class="flex gap-4 items-center">
-								<div class="icon shrink-0 h-[25px] w-[25px]"><svg width="27" height="27" viewBox="0 0 29.869 29.8691" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<defs/>
-									<path id="Vector13" d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z" fill="#CFA2C2" fill-opacity="1.000000" fill-rule="nonzero"/>
-								</svg>
-								</div>
-								Нашли гармонию и уверенность в себе
-						</li>
-					</ul>
-					<a class="review__button constantine uppercase max-w-[750px] w-full rounded-[20px] mb-[40px] text-[37px] bg-[#CFA2C2] text-[#fff] mt-[30px] flex justify-center items-center h-[85px] max-[1000px]:text-[30px] max-[1000px]:max-w-[600px] max-[650px]:max-w-[450px] max-[630px]:h-[70px] max-[500px]:text-[25px] max-[500px]:mt-[17px]" href="https://t.me/probyzhdenie_info">Читать отзывы</a>
-				</div>
-			</section>
-		</main>
-		<footer class="footer pr-[15px] pl-[15px] flex flex-col items-center">
-			<h6 class="montserrat-b text-[#A0598A] mt-[40px] mb-[30px] text-[30px] max-[600px]:text-[20px]">Поделитесь с друзьями!</h6>
-			<p class="montserrat text-[#A0598A] mb-[40px] text-[25px] text-center max-[600px]:text-[16px]">Если эта информация вам кажется полезной, расскажите о ней друзьям.</p>
-			<div class="w-[120px] h-[105px] mb-[40px]">
-				<img src="/logo.png" alt="">
-			</div>
-			<div class="flex gap-[55px] mb-[40px]">
-				<img src="/insta.svg" alt="">
-				<img src="/youtube.svg" alt="">
-				<img src="/telegram.svg" alt="">
-			</div>
-			<div class="flex gap-[55px] text-[20px] mb-[30px] max-[900px]:text-[16px] max-[900px]:gap-[16px] max-[450px]:flex-col max-[450px]:text-[15px] max-[450px]:text-center">
-				<a class="text-[#A0598A] montserrat-b" href="">Договор оферты</a>
-				<a class="text-[#A0598A] montserrat-b" href="">Конфиденциальность</a>
-				<a class="text-[#A0598A] montserrat-b " href="">Реквизиты</a>
-			</div>
-			<p class="text-[#fff] montserrat text-end mb-[30px]">© Все права защищены</p>
-		</footer>
-		<canvas id="canvas" class="max-[1000px]:hidden"></canvas>
-		<script type="module" src="src/js/main.js"></script>
+                
+                <div class="button-next-us">
+                  <img src="/arrow_right.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="start-learn container">
+        <div class="start-learn__div w-full h-[350px]">
+          <div class="start__header h-[200px]">
+            <h3 class="constantine text-[55px] pt-[40px] ml-[65px] text-[#fff]">
+              Не упустите шанс изменить свою жизнь!
+            </h3>
+          </div>
+          <div class="start__par max-w-[835px] h-[130px]">
+            <p
+              class="montserrat-it text-[#fff] text-[25px] pt-[20px] ml-[65px] max-w-[700px]"
+            >
+              Запишитесь прямо сейчас и начните свой путь к гармонии и духовному
+              росту.
+            </p>
+          </div>
+          <a
+            class="start-button constantine text-[25px] text-[#fff] flex justify-center items-center max-w-[350px] w-full h-[105px] uppercase"
+            href=""
+            >Начать обучение</a
+          >
+        </div>
+      </section>
+      <section class="start-learn-min container">
+        <div
+          class="start-learn__div-min w-full flex flex-col justify-center items-center"
+        >
+          <h3
+            class="constantine text-[55px] pt-[40px] ml-[65px] text-[#fff] pr-[20px] max-[800px]:text-[40px] max-[600px]:text-[34px] max-[600px]:ml-[30px] max-[450px]:text-[28px]"
+          >
+            Не упустите шанс изменить свою жизнь!
+          </h3>
+          <p
+            class="montserrat-it text-[#fff] text-[25px] pt-[35px] ml-[65px] self-start max-w-[700px] pr-[20px] max-[800px]:text-[20px] max-[600px]:text-[18px] max-[600px]:ml-[30px] max-[450px]:text-[15px]"
+          >
+            Запишитесь прямо сейчас и начните прямо сейчас и начните свой путь к
+            гармонии и духовному росту.
+          </p>
+          <a
+            class="start-button-min constantine text-[25px] text-[#fff] flex mt-[40px] mb-[20px] justify-center items-center max-w-[450px] w-full h-[105px] max-[800px]:h-[90px] max-[600px]:h-[80px] max-[600px]:max-w-[350px] max-[600px]:text-[20px] max-[450px]:h-[70px] max-[450px]:max-w-[300px] uppercase"
+            href=""
+            >Начать обучение</a
+          >
+        </div>
+      </section>
+      <section class="success container">
+        <div class="sucess-max flex justify-between">
+          <div class="flex flex-col justify-center ml-[40px] max-w-[540px]">
+            <h3
+              class="constantine text-[64px] text-[#687A86] text-start pb-[40px] max-w-[530px] max-[1100px]:text-[55px]"
+            >
+              Шаг за шагом — к результату!
+            </h3>
+            <p
+              class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[20px]"
+            >
+              Вы научитесь работать с энергией, управлять мыслями и эмоциями,
+              развивать яснознание и ясновидение.
+            </p>
+            <p
+              class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[20px]"
+            >
+              Новички легко встроят практики в свою жизнь, а опытные практики
+              откроют новые горизонты: коррекция энергетики, работа с родовыми
+              программами и многое другое.
+            </p>
+            <p
+              class="text-[#B3B3B4] text-[20px] montserrat-sb max-[1150px]:text-[18px]"
+            >
+              Курс «Пробуждение» — это трансформационный путь для любого уровня
+              подготовки.
+            </p>
+          </div>
+          <img
+            class="train-img rounded-[20px] max-w-[540px] max-[1100px]:max-w-[460px] max-[870px]:max-w-[400px] max-[870px]:h-[400px]"
+            src="/sucess.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="sucess-min flex justify-center">
+          <div class="sucess-img flex">
+            <img
+              class="rounded-[20px] max-w-[540px] max-w-[600px] max-[600px]:max-w-[450px] max-[450px]:max-w-[400px] max-[400px]:max-w-[360px]"
+              src="/sucess2.jpeg"
+              alt=""
+            />
+            <div
+              class="sucess-min__div flex ml-[20px] pr-[20px] flex-col justify-center items-center max-w-[540px]"
+            >
+              <h3
+                class="constantine text-[64px] text-[#687A86] text-start pt-[20px] pb-[15px] max-w-[530px] max-[1100px]:text-[55px] max-[600px]:text-[30px] max-[450px]:text-[30px] max-[400px]:text-[25px] max-[400px]:pb-[10px]"
+              >
+                Шаг за шагом — к результату!
+              </h3>
+              <p
+                class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[15px] max-[600px]:text-[15px] max-[450px]:text-[14px] max-[400px]:text-[13px]"
+              >
+                Вы научитесь работать с энергией, управлять мыслями и эмоциями,
+                развивать яснознание и ясновидение.
+              </p>
+              <p
+                class="text-[#B3B3B4] text-[20px] montserrat max-[1150px]:text-[18px] mb-[15px] max-[600px]:text-[15px] max-[450px]:text-[14px] max-[400px]:text-[13px]"
+              >
+                Новички легко встроят практики в свою жизнь, а опытные практики
+                откроют новые горизонты: коррекция энергетики, работа с родовыми
+                программами и многое другое.
+              </p>
+              <p
+                class="text-[#B3B3B4] text-[20px] montserrat-sb max-[1150px]:text-[18px] max-[600px]:text-[15px] max-[450px]:text-[14px] max-[400px]:text-[13px]"
+              >
+                Курс «Пробуждение» — это трансформационный путь для любого
+                уровня подготовки.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for-who container">
+        <h4
+          class="for-who__header constantine uppercase text-[#A0598A] text-center pb-[40px] text-[64px] max-[800px]:text-[55px] max-[650px]:text-[45px] max-[500px]:text-[35px]"
+        >
+          этот курс для тех кто:
+        </h4>
+        <div
+          class="flex justify-between max-[1200px]:justify-center max-[800px]:flex-col max-[800px]:items-center max-[1200px]:gap-[20px]"
+        >
+          <div
+            class="for-who__div rounded-[30px] h-[200px] w-full max-w-[590px] flex items-center justify-center max-[1200px]:max-w-[500px] max-[800px]:max-w-[600px] max-[500px]:h-[150px]"
+          >
+            <p
+              class="text-[#fff] montserrat max-w-[380px] text-center text-[24px] pl-[15px] pr-[15px] max-[900px]:text-[22px] max-[800px]:text-[24px] max-[500px]:text-[20px]"
+            >
+              Только начинает свой путь и хочет понять, как работают тонкие
+              энергии
+            </p>
+          </div>
+          <div
+            class="for-who__div rounded-[30px] h-[200px] w-full max-w-[590px] flex items-center justify-center max-[1200px]:max-w-[500px] max-[800px]:max-w-[600px] max-[500px]:h-[150px]"
+          >
+            <p
+              class="text-[#fff] montserrat max-w-[400px] text-center text-[24px] pl-[15px] pr-[15px] max-[900px]:text-[22px] max-[800px]:text-[24px] max-[500px]:text-[20px]"
+            >
+              Уже практикует, но ищет эффективные техники, которые действительно
+              дают результат
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="why-us container">
+        <h4
+          class="constantine uppercase text-[#687A86] text-[60px] text-center pb-[150px] max-[700px]:text-[45px] max-[700px]:pb-[100px] max-[550px]:text-[35px] max-[550px]:pt-[45px] max-[470px]:pb-[80px]"
+        >
+          Почему выбирают курс PROбуждение?
+        </h4>
+        <div class="flex flex-wrap justify-center gap-[50px] gap-y-24">
+          <div
+            class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]"
+          >
+            <p class="why-us__num montserrat-b text-[75px]">01</p>
+            <h6
+              class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]"
+            >
+              Качество
+            </h6>
+            <p
+              class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px]"
+            >
+              Ощутимые результаты уже после первых занятий.
+            </p>
+            <div class="why-us-img"><img src="/logo2.png" alt="" /></div>
+          </div>
+          <div
+            class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]"
+          >
+            <p class="why-us__num montserrat-b text-[75px]">02</p>
+            <h6
+              class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]"
+            >
+              Доверие
+            </h6>
+            <p
+              class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px] pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px]"
+            >
+              Авторская методика, проверенная временем и десятками учеников.
+              результаты уже после первых занятий.
+            </p>
+            <div class="why-us-img"><img src="/logo2.png" alt="" /></div>
+          </div>
+          <div
+            class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]"
+          >
+            <p class="why-us__num montserrat-b text-[75px]">03</p>
+            <h6
+              class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]"
+            >
+              Гармония
+            </h6>
+            <p
+              class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px] pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px]"
+            >
+              Работа с подсознанием для полной трансформации, восстановление
+              внутреннего баланса и энергии.
+            </p>
+            <div class="why-us-img"><img src="/logo2.png" alt="" /></div>
+          </div>
+          <div
+            class="why-us__div max-w-[490px] w-full h-[465px] pl-[40px] max-[1060px]:max-w-[400px] max-[1060px]:h-[375px] max-[880px]:max-w-[350px] max-[880px]:h-[325px] max-[780px]:max-w-[300px] max-[780px]:h-[275px] max-[780px]:pl-[30px]"
+          >
+            <p class="why-us__num montserrat-b text-[75px]">04</p>
+            <h6
+              class="montserrat-sb text-[#fff] text-[35px] pt-[50px] max-[880px]:text-[30px] max-[780px]:text-[25px] max-[780px]:pt-[35px]"
+            >
+              Универсальность
+            </h6>
+            <p
+              class="montserrat text-[#fff] text-[25px] max-w-[370px] pt-[20px] pr-[10px] max-[880px]:text-[22px] max-[780px]:text-[19px]"
+            >
+              Курс подходит для новичков и опытных практиков.
+            </p>
+            <div class="why-us-img"><img src="/logo2.png" alt="" /></div>
+          </div>
+        </div>
+      </section>
+      <section id="price" class="tarifs-desktop container">
+        <h4
+          class="constantine text-center text-[#A0598A] text-[64px] max-[500px]:text-[50px]"
+        >
+          Тарифы
+        </h4>
+        <div class="swiper swiper-price">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper flex items-end">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div
+                class="first_slide h-[1400px] max-w-[380px] rounded-[20px] flex flex-col max-[500px]:h-[1240px]"
+              >
+                <div
+                  class="border-b-[1px] pl-[22px] pr-[22px] pt-[50px] pb-[20px]"
+                >
+                  <h5
+                    class="constantine text-[#fff] text-[43px] max-[1100px]:text-[35px] max-[500px]:text-[25px]"
+                  >
+                    Лайт
+                  </h5>
+                  <p
+                    class="montserrat-b text-[#fff] text-[35px] pt-[10px] max-[1100px]:text-[30px] max-[500px]:text-[25px]"
+                  >
+                    6990₽
+                  </p>
+                  <p
+                    class="montserrat-el text-[#fff] text-[18px] pt-[10px] max-[1100px]:text-[15px] max-[500px]:text-[13px]"
+                  >
+                    *Доступна рассрочка от 3 до 12 мес
+                  </p>
+                  <a
+                    class="constantine uppercase max-w-[335px] w-full rounded-[20px] text-[20px] bg-[#7993A4] text-[#fff] mt-[30px] flex justify-center items-center h-[60px] max-[1100px]:text-[17px] max-[500px]:h-[50px] max-[500px]:text-[15px]"
+                    href="https://t.me/pro_awakening/27"
+                    >Записаться на курс</a
+                  >
+                </div>
+                <div class="montserrat pl-[22px] pt-[40px] pr-[10px]">
+                  <ul
+                    class="flex gap-6 flex-col shrink-0 text-[#fff] text-[19px] max-[1100px]:text-[17px] max-[500px]:text-[15px]"
+                  >
+                    <li class="flex gap-4 max-[500px]:gap-2">
+                      <div class="shrink-0 h-[25px] w-[25px]">
+                        <img src="/tick.svg" alt="" />
+                      </div>
+                      <p>
+                        Длительность обучения 3 недели. Еженедельно 1-1,5 часа в
+                        записи для самостоятельного изучения + 1 живая встреча в
+                        онлайн
+                      </p>
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="shrink-0 h-[25px] w-[25px]">
+                        <img src="/tick.svg" alt="" />
+                      </div>
+                      4 медитации в записи: <br />
+                      - отпускаем страхи <br />
+                      - убираем самообесценивание <br />
+                      - принятие/непринятие себя <br />
+                      - заряжаемся энергией на улучшение качества жизни на 2025
+                      год
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="shrink-0 h-[25px] w-[25px]">
+                        <img src="/tick.svg" alt="" />
+                      </div>
+                      Групповая практика знакомства со своим Наставником /
+                      Ангелом-Хранителем в живом  онлайн формате
+                    </li>
+                  </ul>
+                </div>
+                <div class="tarif-img"><img src="/logo2.png" alt="" /></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="second_slide h-[1460px] max-w-[380px] rounded-[20px] flex flex-col max-[500px]:h-[1300px]"
+              >
+                <div
+                  class="border-b-[2px] border-[#000] pl-[22px] pr-[22px] pt-[30px] pb-[20px]"
+                >
+                  <div
+                    class="popular text-[#fff] rounded-[30px] max-w-[310px] h-[50px] mb-[30px] flex items-center justify-center montserrat text-[21px] max-[500px]:text-[17px]"
+                  >
+                    Самый популярный
+                  </div>
+                  <h5
+                    class="constantine text-[#fff] text-[43px] max-[1100px]:text-[35px] max-[500px]:text-[25px]"
+                  >
+                    Премиум
+                  </h5>
+                  <p
+                    class="montserrat-b text-[#fff] text-[35px] pt-[10px] max-[1100px]:text-[30px] max-[500px]:text-[25px]"
+                  >
+                    24990₽
+                  </p>
+                  <p
+                    class="montserrat-el text-[#fff] text-[18px] pt-[10px] max-[1100px]:text-[15px] max-[500px]:text-[13px]"
+                  >
+                    *Доступна рассрочка от 3 до 12 мес
+                  </p>
+                  <a
+                    class="constantine uppercase max-w-[335px] w-full rounded-[20px] text-[20px] bg-[#CFA2C2] text-[#000] mt-[30px] flex justify-center items-center h-[60px] max-[1100px]:text-[17px] max-[500px]:h-[50px] max-[500px]:text-[15px]"
+                    href="https://t.me/pro_awakening/27"
+                    >Записаться на курс</a
+                  >
+                </div>
+                <div class="montserrat pl-[22px] pt-[40px] pr-[10px]">
+                  <ul
+                    class="flex gap-6 flex-col shrink-0 text-[#fff] text-[19px] max-[1100px]:text-[17px] max-[500px]:text-[15px]"
+                  >
+                    <li
+                      class="flex gap-4 max-[500px]:gap-2 pb-[28px] max-[439px]:pb-[22px]"
+                    >
+                      <div class="icon shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <p>
+                        Длительность обучения 3 недели. Еженедельно 2-2,5 часа
+                        живых онлайн встреч в мини-группах до 12 человек
+                      </p>
+                    </li>
+                    <li class="flex gap-4 max-[500px]:gap-2">
+                      <div class="icon shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector2"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      4 медитации в записи: <br />
+                      - отпускаем страхи <br />
+                      - убираем самообесценивание <br />
+                      - принятие/непринятие себя <br />
+                      - заряжаемся энергией на улучшение качества жизни на 2025
+                      год
+                    </li>
+                    <li class="flex gap-4 max-[500px]:gap-2">
+                      <div class="icon shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector3"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      Групповая практика знакомства со своим Наставником /
+                      Ангелом-Хранителем в живом  онлайн формате
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="icon shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector4"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      1 групповая практика выхода на тонкий план, работа с
+                      артефактами
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="icon shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector5"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      Разборы личных запросов в групповом поле через ваших
+                      Наставников
+                    </li>
+                  </ul>
+                </div>
+                <div class="tarif-img"><img src="/logo2.png" alt="" /></div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="first_slide h-[1400px] max-w-[380px] rounded-[20px] flex flex-col max-[500px]:h-[1240px]"
+              >
+                <div
+                  class="border-b-[1px] pl-[22px] pr-[22px] pt-[50px] pb-[20px]"
+                >
+                  <h5
+                    class="constantine text-[#fff] text-[43px] max-[1100px]:text-[35px] max-[500px]:text-[25px]"
+                  >
+                    VIP
+                  </h5>
+                  <p
+                    class="montserrat-b text-[#fff] text-[35px] pt-[10px] max-[1100px]:text-[30px] max-[500px]:text-[25px]"
+                  >
+                    49990₽
+                  </p>
+                  <p
+                    class="montserrat-el text-[#fff] text-[18px] pt-[10px] max-[1100px]:text-[15px] max-[500px]:text-[13px]"
+                  >
+                    *Доступна рассрочка от 3 до 12 мес
+                  </p>
+                  <a
+                    class="constantine uppercase max-w-[335px] w-full rounded-[20px] text-[20px] bg-[#7993A4] text-[#fff] mt-[30px] flex justify-center items-center h-[60px] max-[1100px]:text-[17px] max-[500px]:h-[50px] max-[500px]:text-[15px]"
+                    href="https://t.me/pro_awakening/27"
+                    >Записаться на курс</a
+                  >
+                </div>
+                <div class="montserrat pl-[22px] pt-[40px] pr-[10px]">
+                  <ul
+                    class="flex gap-6 flex-col shrink-0 text-[#fff] text-[19px] max-[1100px]:text-[17px] max-[500px]:text-[15px]"
+                  >
+                    <li
+                      class="flex gap-4 max-[500px]:gap-2 pb-[28px] max-[439px]:pb-[22px] max-[421px]:pb-[0px] max-[396px]:pb-[20px]"
+                    >
+                      <div class="icon2 shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector6"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      <p>
+                        Длительность обучения 3 недели. Еженедельно 2 часа живых
+                        онлайн встреч в индивидуальном порядке
+                      </p>
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="icon2 shrink-0">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector7"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      4 медитации в записи: <br />
+                      - отпускаем страхи <br />
+                      - убираем самообесценивание <br />
+                      - принятие/непринятие себя <br />
+                      - заряжаемся энергией на улучшение качества жизни на 2025
+                      год
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="icon2 shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector8"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      Индивидуальная практика знакомства со своим Наставником/
+                      Ангелом-Хранителем в живом онлайн формате
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="icon2 shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector9"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      3 индивидуальных практики выхода на тонкий план, работа с
+                      артефактами
+                    </li>
+                    <li
+                      class="accordion-content__item flex gap-4 max-[500px]:gap-2"
+                    >
+                      <div class="icon2 shrink-0 h-[25px] w-[25px]">
+                        <svg
+                          width="25"
+                          height="25"
+                          viewBox="0 0 29.869 29.8691"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <defs />
+                          <path
+                            id="Vector0"
+                            d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                            fill="#CFA2C2"
+                            fill-opacity="1.000000"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </div>
+                      Разборы личных запросов в индивидуальном  или групповом
+                      поле (по желанию) через вашего Наставника
+                    </li>
+                  </ul>
+                </div>
+                <div class="tarif-img"><img src="/logo2.png" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews" class="container">
+        <div
+          class="reviews__inner mt-[100px] pl-[15px] pr-[15px] flex flex-col items-center"
+        >
+          <h4
+            class="constantine text-[45px] text-[#fff] pt-[50px] pb-[25px] max-[1000px]:text-[38px] text-center max-[630px]:text-[30px]"
+          >
+            Более 100 довольных учеников
+          </h4>
+          <ul
+            class="flex gap-3 flex-col pb-[20px] shrink-0 montserrat text-[#fff] text-[30px] max-[1000px]:text-[22px] max-[630px]:text-[18px] max-[600px]:gap-5"
+          >
+            <li class="flex gap-4 items-center">
+              <div class="icon shrink-0 h-[25px] w-[25px]">
+                <svg
+                  width="27"
+                  height="27"
+                  viewBox="0 0 29.869 29.8691"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs />
+                  <path
+                    id="Vector10"
+                    d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                    fill="#CFA2C2"
+                    fill-opacity="1.000000"
+                    fill-rule="nonzero"
+                  />
+                </svg>
+              </div>
+              <p>Освободились от страхов и сомнений</p>
+            </li>
+            <li class="flex gap-4 items-center">
+              <div class="icon shrink-0 h-[25px] w-[25px]">
+                <svg
+                  width="27"
+                  height="27"
+                  viewBox="0 0 29.869 29.8691"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs />
+                  <path
+                    id="Vector12"
+                    d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                    fill="#CFA2C2"
+                    fill-opacity="1.000000"
+                    fill-rule="nonzero"
+                  />
+                </svg>
+              </div>
+              Усилили интуицию и связь с Наставниками
+            </li>
+            <li class="flex gap-4 items-center">
+              <div class="icon shrink-0 h-[25px] w-[25px]">
+                <svg
+                  width="27"
+                  height="27"
+                  viewBox="0 0 29.869 29.8691"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs />
+                  <path
+                    id="Vector13"
+                    d="M29.86 11.15L26.13 8.66L26.09 7.53L12.8 20.68L7.05 14.93L8.55 13.43L12.8 17.68L25.99 4.64L25.97 4.19L21.5 3.9L19.12 0.1L15.11 2.09L11.15 0L8.66 3.72L4.19 3.89L3.9 8.36L0.1 10.74L2.09 14.75L0 18.71L3.72 21.2L3.89 25.67L8.36 25.96L10.74 29.76L14.75 27.77L18.71 29.86L21.2 26.13L25.67 25.97L25.96 21.5L29.76 19.12L27.77 15.11L29.86 11.15Z"
+                    fill="#CFA2C2"
+                    fill-opacity="1.000000"
+                    fill-rule="nonzero"
+                  />
+                </svg>
+              </div>
+              Нашли гармонию и уверенность в себе
+            </li>
+          </ul>
+          <a
+            class="review__button constantine uppercase max-w-[750px] w-full rounded-[20px] mb-[40px] text-[37px] bg-[#CFA2C2] text-[#fff] mt-[30px] flex justify-center items-center h-[85px] max-[1000px]:text-[30px] max-[1000px]:max-w-[600px] max-[650px]:max-w-[450px] max-[630px]:h-[70px] max-[500px]:text-[25px] max-[500px]:mt-[17px]"
+            href="https://t.me/probyzhdenie_info"
+            >Читать отзывы</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer pr-[15px] pl-[15px] flex flex-col items-center">
+      <h6
+        class="montserrat-b text-[#A0598A] mt-[40px] mb-[30px] text-[30px] max-[600px]:text-[20px]"
+      >
+        Поделитесь с друзьями!
+      </h6>
+      <p
+        class="montserrat text-[#A0598A] mb-[40px] text-[25px] text-center max-[600px]:text-[16px]"
+      >
+        Если эта информация вам кажется полезной, расскажите о ней друзьям.
+      </p>
+      <div class="w-[120px] h-[105px] mb-[40px]">
+        <img src="/logo.png" alt="" />
+      </div>
+      <div class="flex gap-[55px] mb-[40px]">
+        <img src="/insta.svg" alt="" />
+        <img src="/youtube.svg" alt="" />
+        <img src="/telegram.svg" alt="" />
+      </div>
+      <div
+        class="flex gap-[55px] text-[20px] mb-[30px] max-[900px]:text-[16px] max-[900px]:gap-[16px] max-[450px]:flex-col max-[450px]:text-[15px] max-[450px]:text-center"
+      >
+        <a class="text-[#A0598A] montserrat-b" href="">Договор оферты</a>
+        <a class="text-[#A0598A] montserrat-b" href="">Конфиденциальность</a>
+        <a class="text-[#A0598A] montserrat-b" href="">Реквизиты</a>
+      </div>
+      <p class="text-[#fff] montserrat text-end mb-[30px]">
+        © Все права защищены
+      </p>
+    </footer>
+    <canvas id="canvas" class="max-[1000px]:hidden"></canvas>
+    <script type="module" src="src/js/main.js"></script>
   </body>
 </html>
